@@ -10,24 +10,25 @@
 
     <style>
         body {
-            font-family: 'IBM Plex Mono', monospace; /* Usa il font del terminale */
+            font-family: 'IBM Plex Mono', monospace; /* Usa il font che simula un terminale */
             background-color: black; /* Sfondo nero */
             color: green; /* Testo verde */
             text-align: left; /* Allinea il testo a sinistra */
             padding: 30px;
+            font-size: 1em; /* Testo più piccolo */
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
-            line-height: 1.8; /* Spaziatura tra le righe migliorata */
+            line-height: 1.6; /* Spaziatura tra le righe migliorata */
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 2em; /* Dimensione ridotta per il titolo */
             margin-bottom: 20px;
             color: lightgreen; /* Un verde più chiaro per i titoli */
         }
         p {
-            font-size: 1.2em;
+            font-size: 1em; /* Dimensione ridotta per il testo */
             margin-bottom: 15px;
         }
         .data-section {
@@ -55,6 +56,11 @@
             background-color: darkgreen; /* Cambia colore al passaggio del mouse */
             color: white;
         }
+        .dots {
+            white-space: nowrap;
+            display: block;
+            margin: 15px 0;
+        }
     </style>
 </head>
 <body>
@@ -72,31 +78,20 @@
             <p><strong>[IBAN]:</strong> IT66N0200805032000400003456</p>
         </div>
 
+        <div class="dots">.....</div> <!-- 5 puntini separati -->
+        
         <div class="data-section">
-            <p>Questi dati sono fittizi e creati esclusivamente per dimostrare cosa accade quando la privacy di un individuo viene violata attraverso l’uso di social network, cookie e strumenti online.</p>
-            <p>Le informazioni raccolte e condivise in modo non autorizzato possono rivelare dettagli profondi e personali, evidenziando quanto sia importante tutelare la propria sicurezza digitale e navigare con consapevolezza.</p>
+            <p><strong>DETTAGLI DISPOSITIVO OSSERVATORE</strong></p>
+            <p><strong>[Posizione geografica]:</strong> Milano, Italia</p>
+            <p><strong>[Dispositivo connesso]:</strong> Smartphone</p>
+            <p><strong>[Provider Internet]:</strong> FastWeb</p>
+            <p><strong>[Siti visitati di frequente]:</strong> social media, e-commerce, streaming</p>
+            <p><strong>[App utilizzate]:</strong> giochi, servizi bancari, messaggistica</p>
         </div>
 
-        <div class="data-section">
-            <p>Ti sei mai chiesto cosa accade ai tuoi dati quando clicchi "Accetta"?</p>
-            <p>Ogni volta che autorizzi i cookie o condividi un post sui social, sai davvero chi sta osservando?</p>
-            <p>Ti sembra normale che dopo aver cercato un prodotto online, inizi a vedere pubblicità ovunque?</p>
-            <p>Ogni "Mi piace" contribuisce a creare un profilo su di te.</p>
-            <p>Ti senti a tuo agio sapendo che aziende o agenzie potrebbero usarlo per influenzarti?</p>
-            <p>E cosa succede quando inserisci il tuo indirizzo email?</p>
-            <p>Sai che potrebbe essere venduto o usato per scopi che non conosci?</p>
-            <p>Ti hanno detto che i cookie sono innocui, ma ti sei mai chiesto perché tracciano ogni tua mossa?</p>
-            <p>E quanto sei certo che i tuoi dati siano davvero al sicuro?</p>
-            <p>Violazioni e furti di informazioni accadono perché spesso le piattaforme non proteggono abbastanza.</p>
-        </div>
+        <div class="dots">.....</div> <!-- 5 puntini separati -->
 
-        <div class="data-section">
-            <p>Pensi di essere libero online?</p>
-            <p>Oppure percepisci un’ombra invisibile che studia ogni tua scelta, prevedendo le tue mosse?</p>
-            <p>Se tutto ciò che fai contribuisce a creare un’immagine digitale di te, un’immagine che può essere comprata e venduta, come ti sentiresti?</p>
-            <p>Non è il momento di ripensare a cosa condividi e a chi lo permetti?</p>
-            <p>Chi controlla davvero la tua vita online?</p>
-        </div>
+        <div class="dots">..........</div> <!-- 10 puntini separati -->
 
         <div class="button-container">
             <a href="https://www.example.com" class="custom-button">
