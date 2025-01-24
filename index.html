@@ -3,101 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informazioni Personali</title>
-    
-    <!-- Aggiungi il link per caricare il font IBM Plex Mono da Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-
+    <title>Simulazione Privacy</title>
     <style>
         body {
-            font-family: 'IBM Plex Mono', monospace; /* Usa il font che simula un terminale */
-            background-color: black; /* Sfondo nero */
-            color: green; /* Testo verde */
-            text-align: left; /* Allinea il testo a sinistra */
-            padding: 30px;
-            font-size: 1em; /* Testo più piccolo */
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            line-height: 1.6; /* Spaziatura tra le righe migliorata */
-        }
-        h1 {
-            font-size: 2em; /* Dimensione ridotta per il titolo */
-            margin-bottom: 20px;
-            color: lightgreen; /* Un verde più chiaro per i titoli */
-        }
-        p {
-            font-size: 1em; /* Dimensione ridotta per il testo */
-            margin-bottom: 15px;
-        }
-        .data-section {
-            margin-top: 30px;
-        }
-        .button-container {
-            text-align: center;
-            margin-top: 40px;
-        }
-        .custom-button {
-            display: inline-block;
-            padding: 15px 20px;
-            font-size: 1.1em;
-            color: black; /* Colore testo del pulsante */
-            background-color: green; /* Sfondo del pulsante */
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s, color 0.3s;
-            text-align: center;
-            max-width: 500px; /* Limita la larghezza del pulsante */
-            word-wrap: break-word; /* Consente di andare a capo */
-        }
-        .custom-button:hover {
-            background-color: darkgreen; /* Cambia colore al passaggio del mouse */
+            background-color: black;
             color: white;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 50px 20px;
+            line-height: 1.8;
         }
-        .dots {
-            white-space: nowrap;
-            display: block;
-            margin: 15px 0;
+
+        h1 {
+            text-align: center;
         }
+
+        .content {
+            margin: 40px 0;
+        }
+
+        .content p {
+            text-align: justify;
+        }
+
+        .details {
+            margin-top: 20px;
+        }
+
+        .separator {
+            margin-top: 40px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .code {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #111;
+            color: #00ff00;
+            padding: 20px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>INFORMAZIONI SUL SOGGETTO</h1>
-        
-        <div class="data-section">
-            <p><strong>[Nome completo]:</strong> Daniele Moretti</p>
-            <p><strong>[Data di nascita]:</strong> 27/08/1960</p>
-            <p><strong>[Nazionalità]:</strong> Italiana</p>
-            <p><strong>[Codice Fiscale]:</strong> MRTDNL78H27L736S</p>
-            <p><strong>[Indirizzo]:</strong> Via Torino, 15, 10121 Torino (TO)</p>
-            <p><strong>[Numero di telefono]:</strong> +39 340 5678912</p>
-            <p><strong>[Email]:</strong> daniele.moretti78@mail.com</p>
-            <p><strong>[IBAN]:</strong> IT66N0200805032000400003456</p>
-        </div>
 
-        <div class="dots">.....</div> <!-- 5 puntini separati -->
-        
-        <div class="data-section">
-            <p><strong>DETTAGLI DISPOSITIVO OSSERVATORE</strong></p>
-            <p><strong>[Posizione geografica]:</strong> Milano, Italia</p>
-            <p><strong>[Dispositivo connesso]:</strong> Smartphone</p>
-            <p><strong>[Provider Internet]:</strong> FastWeb</p>
-            <p><strong>[Siti visitati di frequente]:</strong> social media, e-commerce, streaming</p>
-            <p><strong>[App utilizzate]:</strong> giochi, servizi bancari, messaggistica</p>
-        </div>
-
-        <div class="dots">.....</div> <!-- 5 puntini separati -->
-
-        <div class="dots">..........</div> <!-- 10 puntini separati -->
-
-        <div class="button-container">
-            <a href="https://www.example.com" class="custom-button">
-                Scopri come proteggere i tuoi dati: leggi i consigli per evitare che vengano usati senza consenso
-            </a>
+    <h1>INFORMAZIONI SUL SOGGETTO</h1>
+    <div class="content">
+        <div class="code">
+            [Nome completo]: Giovanni Esposito<br>
+            [Data di nascita]: 09/02/1998<br>
+            [Nazionalità]: Italiana<br>
+            [Codice fiscale]: SPSGNN90S21F839L<br>
+            [Indirizzo]: Via Napoli, 45, 80133 Napoli (NA)<br>
+            [Numero di telefono]: +39 388 1234567<br>
+            [Email]: giovanni.esposito90@gmail.com<br>
+            [IBAN]: IT30C0200805094000400001234<br>
+            [Segni caratteriali]: Solare, estroverso, ambizioso.<br>
+            [Ideali]: Crede nell'uguaglianza e nell'innovazione.<br>
+            [Orientamento religioso]: Cristiano cattolico.<br>
+            [Orientamento sessuale]: Eterosessuale.<br>
+            [Posizione esatta dello scatto]: 40.8471° N, 14.2546° E<br>
         </div>
     </div>
+
+    <div class="separator">…</div>
+
+    <div class="details">
+        <h2>DETTAGLI DISPOSITIVO OSSERVATORE</h2>
+        <div class="code">
+            [Posizione geografica]: Milano, Italia<br>
+            [Dispositivo connesso]: Smartphone<br>
+            [Provider Internet]: FastWeb<br>
+            [Siti visitati di frequente]: social media, e-commerce, streaming<br>
+            [App utilizzate]: giochi, servizi bancari, messaggistica<br>
+        </div>
+    </div>
+
+    <div class="separator">…</div>
+
+    <div class="content">
+        <p>Questi dati sono fittizi e creati esclusivamente per dimostrare cosa accade quando la privacy di un individuo viene violata attraverso l’uso di social network, cookie e strumenti online.</p>
+        <p>Le informazioni raccolte e condivise in modo non autorizzato possono rivelare dettagli profondi e personali, evidenziando quanto sia importante tutelare la propria sicurezza digitale e navigare con consapevolezza.</p>
+
+        <p>Ti sei mai chiesto cosa accade ai tuoi dati quando clicchi "Accetta"? Ogni volta che autorizzi i cookie o condividi un post sui social, sai davvero chi sta osservando? Ti sembra normale che dopo aver cercato un prodotto online, inizi a vedere pubblicità ovunque?</p>
+        <p>Ogni "Mi piace" contribuisce a creare un profilo su di te. Ti senti a tuo agio sapendo che aziende o agenzie potrebbero usarlo per influenzarti? E cosa succede quando inserisci il tuo indirizzo email? Sai che potrebbe essere venduto o usato per scopi che non conosci?</p>
+
+        <p>Ti hanno detto che i cookie sono innocui, ma ti sei mai chiesto perché tracciano ogni tua mossa? E quanto sei certo che i tuoi dati siano davvero al sicuro? Violazioni e furti di informazioni accadono perché spesso le piattaforme non proteggono abbastanza.</p>
+
+        <p>Pensi di essere libero online?</p>
+        <div class="separator">…</div>
+
+        <p>Oppure percepisci un’ombra invisibile che studia ogni tua scelta, prevedendo le tue mosse? Se tutto ciò che fai contribuisce a creare un’immagine digitale di te, un’immagine che può essere comprata e venduta, come ti sentiresti?</p>
+        <p>Non è il momento di ripensare a cosa condividi e a chi lo permetti? Chi controlla davvero la tua vita online?</p>
+    </div>
+
 </body>
 </html>
