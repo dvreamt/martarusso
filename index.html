@@ -11,19 +11,20 @@
     <style>
         body {
             font-family: 'IBM Plex Mono', monospace; /* Usa il font del terminale */
-            background-color: black;
-            color: white;
-            text-align: center;
+            background-color: black; /* Sfondo nero */
+            color: green; /* Testo verde */
+            text-align: left; /* Allinea il testo a sinistra */
             padding: 30px;
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
-            line-height: 1.6;
+            line-height: 1.8; /* Spaziatura tra le righe migliorata */
         }
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
+            color: lightgreen; /* Un verde più chiaro per i titoli */
         }
         p {
             font-size: 1.2em;
@@ -39,10 +40,9 @@
         .custom-button {
             display: inline-block;
             padding: 15px 20px;
-            margin-top: 20px;
             font-size: 1.1em;
-            color: black;
-            background-color: white;
+            color: black; /* Colore testo del pulsante */
+            background-color: green; /* Sfondo del pulsante */
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
@@ -52,7 +52,7 @@
             word-wrap: break-word; /* Consente di andare a capo */
         }
         .custom-button:hover {
-            background-color: #ff4747; /* Cambia colore al passaggio del mouse */
+            background-color: darkgreen; /* Cambia colore al passaggio del mouse */
             color: white;
         }
     </style>
@@ -70,22 +70,6 @@
             <p><strong>[Numero di telefono]:</strong> +39 340 5678912</p>
             <p><strong>[Email]:</strong> daniele.moretti78@mail.com</p>
             <p><strong>[IBAN]:</strong> IT66N0200805032000400003456</p>
-        </div>
-
-        <div class="data-section">
-            <p><strong>[Segni caratteriali]:</strong> Paziente, riflessivo, gentile.</p>
-            <p><strong>[Ideali]:</strong> Promuove il volontariato e la solidarietà.</p>
-            <p><strong>[Orientamento religioso]:</strong> Cristiano cattolico.</p>
-            <p><strong>[Orientamento sessuale]:</strong> Eterosessuale.</p>
-            <p><strong>[Posizione esatta dello scatto]:</strong> 45.0703° N, 7.6869° E</p>
-        </div>
-
-        <div class="data-section">
-            <div class="button-container">
-                <a href="https://www.example.com" class="custom-button">
-                    Scopri come proteggere i tuoi dati: leggi i consigli per evitare che vengano usati senza consenso
-                </a>
-            </div>
         </div>
 
         <div class="data-section">
@@ -112,6 +96,12 @@
             <p>Se tutto ciò che fai contribuisce a creare un’immagine digitale di te, un’immagine che può essere comprata e venduta, come ti sentiresti?</p>
             <p>Non è il momento di ripensare a cosa condividi e a chi lo permetti?</p>
             <p>Chi controlla davvero la tua vita online?</p>
+        </div>
+
+        <div class="button-container">
+            <a href="https://www.example.com" class="custom-button">
+                Scopri come proteggere i tuoi dati: leggi i consigli per evitare che vengano usati senza consenso
+            </a>
         </div>
     </div>
 </body>
